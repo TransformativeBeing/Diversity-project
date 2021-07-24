@@ -16,6 +16,10 @@ button:hover {
     cursor: pointer;
 }
 
+p {
+    font-size: 20px;
+}
+
 a:hover {
     color: #875df17a !important;
     text-decoration: underline !important;

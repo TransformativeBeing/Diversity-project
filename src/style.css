@@ -1,13 +1,44 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background: radial-gradient( circle at 1.5% 2.8%, rgba(255, 0, 0, 0.5) 6%, rgba(255, 68, 0, 0.5) 20%, rgba(255, 255, 0, 0.5) 46%, rgba(0, 128, 0, 0.5) 67%, rgba(0, 0, 255, 0.5) 87%, rgba(128, 0, 128, 0.5) 93.1%);
+}
+
+.container-box {
+    margin: 0 auto;
+    max-width: 600px !important;
+    width: 90% !important;
+}
+
+h1 {
+    font-family: cursive;
+    color: #875df17a;
+}
+
+h2 {
+    width: 70%;
+    border: 1px solid #875df17a;
+    border-radius: 30px 30px 0 30px;
+}
+
 @media (max-width: 576px) {
     h1 {
         font-size: 30px !important;
     }
     h2 {
-        font-size: 9px !important;
+        font-size: 24px !important;
     }
     p {
-        font-size: 3px !important;
+        font-size: 14px !important;
     }
+}
+
+button {
+    color: white;
+    background: radial-gradient( circle at 1.5% 2.8%, rgba(255, 0, 0, 0.5) 6%, rgba(255, 68, 0, 0.5) 20%, rgba(255, 255, 0, 0.5) 46%, rgba(0, 128, 0, 0.5) 67%, rgba(0, 0, 255, 0.5) 77%, rgba(128, 0, 128, 0.5) 93.1%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 2px 30px 30px 30px !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
+    transition: all 200ms ease-in-out;
 }
 
 button:hover {
@@ -20,7 +51,18 @@ p {
     font-size: 20px;
 }
 
+a {
+    text-decoration: none !important;
+    font-size: 12px;
+}
+
 a:hover {
     color: #875df17a !important;
     text-decoration: underline !important;
+}
+
+.code-by {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: monospace;
 }
